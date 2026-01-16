@@ -5,7 +5,11 @@ Kraft CLI commands for building and deploying Unikraft unikernels. Use when work
 ## Install
 
 ```bash
+# Add marketplace
 /plugin marketplace add guillempuche/ai-skill-unikraft
+
+# Install plugin
+/plugin install ai-skill-unikraft@guillempuche-ai-skill-unikraft
 ```
 
 ## Part of AI Standards
