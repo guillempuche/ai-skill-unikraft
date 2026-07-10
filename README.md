@@ -1,6 +1,6 @@
 # ai-skill-unikraft
 
-Kraft CLI commands for building and deploying Unikraft unikernels. Use when working with Kraftfiles, deploying to Unikraft Cloud, or managing unikernel instances.
+Unikraft CLI (`unikraft`) commands for building and deploying to Unikraft Cloud. Use when working with Kraftfiles, deploying unikernels, or managing Unikraft Cloud instances/services/images. Covers th
 
 ## Install
 
