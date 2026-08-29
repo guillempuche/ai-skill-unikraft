@@ -1,5 +1,6 @@
 {
   "name": "ai-skill-unikraft",
+  "description": "Unikraft CLI (`unikraft`) commands for building and deploying to Unikraft Cloud. Use when working with Kraftfiles, deploying unikernels, or managing Unikraft Cloud instances/services/images. Covers the new `unikraft` CLI that replaces the legacy kraftkit `kraft`.",
   "owner": {
     "name": "guillempuche",
     "url": "https://github.com/guillempuche"
@@ -7,7 +8,10 @@
   "plugins": [
     {
       "name": "unikraft",
-      "source": "./"
+      "description": "Unikraft CLI (`unikraft`) commands for building and deploying to Unikraft Cloud. Use when working with Kraftfiles, deploying unikernels, or managing Unikraft Cloud instances/services/images. Covers the new `unikraft` CLI that replaces the legacy kraftkit `kraft`.",
+      "source": "./",
+      "license": "MIT",
+      "homepage": "https://github.com/guillempuche/ai-skill-unikraft"
     }
   ]
 }
