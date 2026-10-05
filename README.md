@@ -4,6 +4,16 @@ Unikraft CLI (`unikraft`) commands for building and deploying to Unikraft Cloud.
 
 ## Install
 
+### Any agent
+
+The [`skills`](https://github.com/vercel-labs/skills) CLI installs into Codex, OpenCode, Gemini CLI, Cursor, Copilot, Claude Code, and 70+ other agents:
+
+```bash
+npx skills add guillempuche/ai-skill-unikraft
+```
+
+### Claude Code
+
 ```bash
 # Add marketplace (uses repo slug)
 /plugin marketplace add guillempuche/ai-skill-unikraft
@@ -11,6 +21,16 @@ Unikraft CLI (`unikraft`) commands for building and deploying to Unikraft Cloud.
 # Install plugin (plugin name is topic-only)
 /plugin install unikraft@guillempuche-ai-skill-unikraft
 ```
+
+### Gemini CLI
+
+```bash
+gemini skills install https://github.com/guillempuche/ai-skill-unikraft.git --path skills/unikraft
+```
+
+### Manual
+
+Copy `skills/unikraft` into `.agents/skills/` (Codex, Gemini CLI, OpenCode, Mastra Code, Cursor, Copilot) or `.claude/skills/` (Claude Code).
 
 ## Part of AI Standards
 
