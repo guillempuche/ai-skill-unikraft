@@ -1,0 +1,13 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "unikraft",
+  "version": "2.1.2",
+  "description": "Unikraft CLI (`unikraft`) commands for building and deploying to Unikraft Cloud. Use when working with Kraftfiles, deploying unikernels, or managing Unikraft Cloud instances/services/images. Covers the new `unikraft` CLI that replaces the legacy kraftkit `kraft`.",
+  "author": {
+    "name": "guillempuche",
+    "url": "https://github.com/guillempuche"
+  },
+  "homepage": "https://github.com/guillempuche/ai-skill-unikraft",
+  "repository": "https://github.com/guillempuche/ai-skill-unikraft",
+  "license": "MIT"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "ai-skill-unikraft",
+  "interface": {
+    "displayName": "ai-skill-unikraft"
+  },
+  "plugins": [
+    {
+      "name": "unikraft",
+      "description": "Unikraft CLI (`unikraft`) commands for building and deploying to Unikraft Cloud. Use when working with Kraftfiles, deploying unikernels, or managing Unikraft Cloud instances/services/images. Covers the new `unikraft` CLI that replaces the legacy kraftkit `kraft`.",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
